@@ -1,0 +1,73 @@
+/* ===== WebChatSales Styles ===== */
+:root {
+  --blue: #1D4ED8;
+  --bg: #0B1020;
+  --text: #F9FAFB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: var(--blue);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: var(--blue);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 15px 10px;
+  padding: 12px 24px;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #0a3ea1;
+}
+
+/* Footer */
+footer {
+  background: #111827;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
